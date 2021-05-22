@@ -56,3 +56,9 @@ button:hover {
 .info-el {
   color: greenyellow;
 }
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 60px;
+  }
+}
