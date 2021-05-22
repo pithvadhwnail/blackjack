@@ -63,7 +63,7 @@ function renderGame() {
 function moneyUpdate() {
   if (moneyUpdateVar === 1) {
     if (sum === 21) {
-      player.money += 10;
+      player.money += 50;
     } else if (sum > 21) {
       player.money -= 50;
     }
